@@ -63,22 +63,32 @@
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
 				<h1 id="typical">Typical</h1>
-				<h3 id="tl-dr-">tl;dr?</h3>
-				<p>Lodash for types.</p>
-				<h3 id="installing">Installing</h3>
-				<pre><code>npm <span class="hljs-selector-tag">i</span> typical-ts
-</code></pre><h3 id="-docs-http-tycho01-github-io-typical-index-html-"><a href="http://tycho01.github.io/typical/index.html">Docs</a></h3>
+				<p>Typical is a playground of type-level operations for TypeScript.
+					It is mostly experimental and not ready to use yet.
+				For a lib usable today, try one of the <a href="https://github.com/tycho01/typical/#similar-projects">other</a> type libraries.</p>
+				<!--
+### Installing
+
+```
+npm i typical-ts
+```
+-->
+				<h3 id="docs"><a href="http://tycho01.github.io/typical/index.html">Docs</a></h3>
 				<h3 id="background-">Background?</h3>
-				<p>I&#39;d been trying to type a library (Ramda -- <a href="http://ramdajs.com/docs/">repo</a>, <a href="https://github.com/types/npm-ramda/">typings</a>),
-					and found that there would be a lot more return types we <em>could</em> be figuring out the types for.
-					No-one had just quite figured out how to compose the basic type operators to construct larger building blocks yet.
-				That is where this library comes in.</p>
+				<p>Typical has had a long-term focus, exploring what we can do with types.
+					The end goal is to enable type-safe functional programming with e.g. <a href="http://ramdajs.com/docs/">ramda</a> and <a href="https://github.com/calmm-js/partial.lenses/">partial lenses</a>. Existing <a href="https://github.com/types/npm-ramda/">typings</a> provide some level of type safety, but not enough.
+				Front-end engineering is a <a href="https://github.com/reactjs/redux/blob/master/examples/todos/src/actions/index.js">royal</a> <a href="https://github.com/ngrx/platform/blob/master/example-app/app/books/actions/book.ts">pain</a>, and functional libraries would <a href="https://github.com/calmm-js/kral-todomvc/blob/master/src/todos-meta.js#L17-L24">save us</a> given proper type inference.</p>
 				<h3 id="contributing">Contributing</h3>
-				<p>Run the tests (<code>npm test</code>) or check <a href="https://github.com/tycho01/typical/blob/master/errors.log"><code>errors.log</code></a>.</p>
+				<ul>
+					<li><a href="https://github.com/tycho01/typical/issues/">issues</a></li>
+					<li><a href="https://github.com/tycho01/typical/blob/master/tsc.log"><code>tsc</code> output</a></li>
+					<li><a href="https://github.com/tycho01/typical/blob/master/errors.log">test output</a></li>
+				</ul>
+				<p>These can be rerun with <code>npm test</code>.</p>
 				<h3 id="similar-projects">Similar projects</h3>
 				<ul>
-					<li><a href="https://github.com/gcanti/typelevel-ts"><code>typelevel-ts</code></a>, another type library, less experimental</li>
-					<li><a href="https://github.com/pelotom/type-zoo"><code>type-zoo</code></a>, another recent type lib</li>
+					<li><a href="https://github.com/pelotom/type-zoo"><code>type-zoo</code></a>, a modest type lib usable today</li>
+					<li><a href="https://github.com/gcanti/typelevel-ts"><code>typelevel-ts</code></a>, a type lib by <a href="https://github.com/gcanti">@gcanti</a>, author of several FP libs in TS</li>
 				</ul>
 			</div>
 		</div>
