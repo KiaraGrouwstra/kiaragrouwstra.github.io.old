@@ -1,3 +1,0 @@
-[submodule "twitter-intent-generator"]
-	path = twitter-intent-generator
-	url = git@github.com:KiaraGrouwstra/twitter-intent-generator.git
