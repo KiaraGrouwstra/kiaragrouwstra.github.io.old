@@ -1,0 +1,32 @@
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: .75rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  color: white !important;
+}
+
+.body-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#intent {
+  margin: 1rem 0;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
